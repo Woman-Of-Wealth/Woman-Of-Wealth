@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Joy Molele — leadership, wealth creation, faith, entrepreneurship, markets, books and speaking.">
+<title>Joy Molele | Official Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+:root{--plum:#5b214f;--berry:#a93b76;--rose:#ef79a8;--blush:#ffd9e8;--cream:#fffaf5;--peach:#ffc6a5;--gold:#d8a93e;--gold2:#f7d98a;--lilac:#c8a7f2;--mint:#7edfd0;--ink:#3b2938;--muted:#746674;--white:#fff;--shadow:0 24px 70px rgba(91,33,79,.14);--ease:.35s ease}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;color:var(--ink);background:linear-gradient(135deg,#fffaf5 0%,#fff1f7 45%,#f5efff 100%);line-height:1.7;overflow-x:hidden}a{text-decoration:none;color:inherit}h1,h2,h3,h4,.serif{font-family:'Playfair Display',serif}section{padding:110px 7%;position:relative}.container{max-width:1240px;margin:auto}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--berry);font-size:.75rem;letter-spacing:3px;text-transform:uppercase;font-weight:700}.eyebrow:before{content:'✦';color:var(--gold)}
+
+header{position:fixed;top:0;left:0;width:100%;z-index:1000;padding:16px 6%;display:flex;align-items:center;justify-content:space-between;background:rgba(255,250,245,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(216,169,62,.22)}
+.brand-wrapper{display:flex;align-items:center;gap:12px;}
+.brand-logo{width:42px;height:42px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}
+.brand{font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--plum);letter-spacing:.5px}
+.brand small{display:block;font-family:'DM Sans',sans-serif;font-size:.52rem;letter-spacing:2px;color:var(--gold);text-transform:uppercase;line-height:1}
+
+.nav{display:flex;gap:25px;list-style:none}.nav a{font-size:.84rem;font-weight:600;color:#644f61;position:relative}.nav a:after{content:'';position:absolute;left:0;bottom:-7px;width:0;height:2px;background:linear-gradient(90deg,var(--rose),var(--gold));transition:var(--ease)}.nav a:hover{color:var(--berry)}.nav a:hover:after{width:100%}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:12px 21px;font-weight:700;transition:var(--ease)}.nav-cta{background:linear-gradient(135deg,var(--berry),var(--rose));color:#fff;box-shadow:0 10px 24px rgba(169,59,118,.22)}.nav-cta:hover,.btn:hover{transform:translateY(-3px);box-shadow:0 15px 32px rgba(169,59,118,.25)}
+
+.hero{min-height:100vh;padding:150px 7% 80px;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 12% 18%,rgba(255,255,255,.96),transparent 27%),radial-gradient(circle at 86% 25%,rgba(255,217,232,.8),transparent 30%),linear-gradient(135deg,#fff7ef,#f9e9f2 55%,#eee5ff)}.hero:before{content:'';position:absolute;width:520px;height:520px;border-radius:50%;right:-180px;top:70px;background:linear-gradient(135deg,rgba(239,121,168,.25),rgba(200,167,242,.22));filter:blur(4px)}.hero-grid{width:100%;max-width:1240px;display:grid;grid-template-columns:1.02fr .98fr;gap:55px;align-items:center;position:relative;z-index:2}.hero-copy{padding:20px 0}.hero h1{font-size:clamp(4rem,8vw,7.2rem);line-height:.9;color:var(--plum);margin:18px 0 24px;letter-spacing:-3px}.hero h1 span{display:block;background:linear-gradient(90deg,var(--berry),var(--rose),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent;font-style:italic}.hero-lead{font-size:1.12rem;max-width:670px;color:#654f61;margin-bottom:25px}.hero-quote{border-left:4px solid var(--gold);padding:13px 20px;margin:25px 0;color:var(--plum);font-family:'Playfair Display',serif;font-style:italic;font-size:1.08rem;background:rgba(255,255,255,.5);border-radius:0 16px 16px 0}.hero-actions{display:flex;gap:13px;flex-wrap:wrap}.btn-primary{background:linear-gradient(135deg,var(--berry),#d85c91);color:#fff;box-shadow:0 12px 28px rgba(169,59,118,.2)}.btn-soft{background:#fff;color:var(--berry);border:1px solid rgba(169,59,118,.18)}.hero-card{min-height:610px;border-radius:40px;position:relative;overflow:hidden;box-shadow:var(--shadow);border:8px solid rgba(255,255,255,.72);background:#f4dce4}.hero-card:before{content:'';position:absolute;inset:0;background:linear-gradient(160deg,rgba(91,33,79,.03),rgba(91,33,79,.2))}.hero-photo{position:absolute;inset:0;background-image:linear-gradient(180deg,rgba(91,33,79,.02),rgba(91,33,79,.48)),url('molele1.jpeg');background-position:center 20%;background-size:cover;background-repeat:no-repeat}.floating{position:absolute;z-index:3;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.8);border-radius:22px;padding:17px 19px;box-shadow:0 18px 40px rgba(91,33,79,.16)}.floating.one{top:28px;right:25px}.floating.two{bottom:28px;left:25px}.floating strong{display:block;color:var(--plum);font-family:'Playfair Display',serif;font-size:1.12rem}.floating span{font-size:.72rem;color:var(--muted)}
+
+.marquee{background:var(--plum);color:#fff;padding:14px 0;overflow:hidden;border-top:2px solid var(--gold2);border-bottom:2px solid var(--gold2)}.marquee-track{display:flex;width:max-content;gap:40px;animation:scroll 25s linear infinite;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;font-weight:700}.marquee-track span{white-space:nowrap;color:#ffe9f2}.marquee-track i{color:var(--gold2)}@keyframes scroll{to{transform:translateX(-50%)}}
+
+.section-head{text-align:center;max-width:760px;margin:0 auto 58px}.section-head h2{font-size:clamp(2.5rem,5vw,4rem);color:var(--plum);line-height:1.05;margin:12px 0}.section-head p{color:var(--muted)}#about{background:rgba(255,255,255,.48)}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.about-visual{min-height:530px;border-radius:34px;position:relative;background:linear-gradient(145deg,#ffd9e8,#f7d98a 52%,#c8a7f2);overflow:hidden;box-shadow:var(--shadow)}.about-visual:before{content:'FAITH • PURPOSE • WEALTH';position:absolute;inset:auto 25px 25px;font-size:1.8rem;color:#fff;font-family:'Playfair Display',serif;font-weight:600;z-index:2;text-shadow:0 4px 18px rgba(91,33,79,.25)}.about-visual:after{content:'';position:absolute;inset:12%;border:1px solid rgba(255,255,255,.65);border-radius:50%;transform:rotate(-12deg)}.about-copy h3{font-size:2.2rem;color:var(--plum);margin-bottom:15px}.about-copy p{margin-bottom:17px;color:#665566}.signature{font-family:'Playfair Display',serif;font-size:1.7rem;color:var(--berry);font-style:italic;margin-top:20px}.pillars{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}.pillar{padding:20px;border-radius:22px;background:#fff;border:1px solid rgba(169,59,118,.12);box-shadow:0 10px 25px rgba(91,33,79,.06)}.pillar i{font-size:1.25rem;color:var(--berry);margin-bottom:9px}.pillar h4{font-size:1.1rem;color:var(--plum)}.pillar p{font-size:.82rem;margin:4px 0 0}
+
+#impact{background:linear-gradient(135deg,#fff0f6,#f4edff)}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.impact{padding:30px 22px;text-align:center;background:#fff;border-radius:26px;border-top:4px solid var(--rose);box-shadow:0 15px 35px rgba(91,33,79,.07);transition:var(--ease)}.impact:hover{transform:translateY(-7px)}.impact i{font-size:1.5rem;color:var(--gold);margin-bottom:10px}.impact strong{display:block;font-family:'Playfair Display',serif;color:var(--plum);font-size:2rem}.impact span{font-size:.82rem;color:var(--muted)}
+
+#wealth{background:var(--cream)}.wealth-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.wealth-card{padding:34px;border-radius:30px;min-height:300px;background:#fff;border:1px solid rgba(216,169,62,.2);box-shadow:var(--shadow);position:relative;overflow:hidden;transition:var(--ease)}.wealth-card:before{content:'';position:absolute;width:130px;height:130px;border-radius:50%;right:-40px;top:-40px;background:linear-gradient(135deg,var(--blush),var(--lilac));opacity:.65}.wealth-card:hover{transform:translateY(-8px) rotate(.2deg)}.icon{width:54px;height:54px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blush),#fff);color:var(--berry);font-size:1.3rem;margin-bottom:20px}.wealth-card h3{font-size:1.6rem;color:var(--plum);margin-bottom:10px}.wealth-card p{font-size:.9rem;color:var(--muted)}.arrow{position:absolute;bottom:25px;right:27px;color:var(--berry)}
+
+/* --- BOOKS SECTION STYLES --- */
+#books{background:linear-gradient(135deg,#f8efff,#fff0f6)}.book-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;max-width:1000px;margin:auto}.book-card{background:#fff;border-radius:32px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;border:1px solid rgba(216,169,62,.2);transition:var(--ease)}.book-card:hover{transform:translateY(-8px)}.book-img-wrap{background:linear-gradient(135deg,var(--plum),var(--berry));padding:30px;display:flex;justify-content:center;align-items:center;position:relative}.book-img-wrap img{max-height:280px;border-radius:12px;box-shadow:0 15px 35px rgba(0,0,0,.3);transition:var(--ease)}.book-img-wrap img:hover{transform:scale(1.03)}.book-content{padding:30px;display:flex;flex-direction:column;flex-grow:1}.book-content h3{font-size:1.8rem;color:var(--plum);margin-bottom:10px}.book-price{font-size:1.4rem;font-weight:700;color:var(--berry);margin-bottom:15px}.book-content p{color:var(--muted);font-size:.92rem;margin-bottom:20px;flex-grow:1}.book-actions{display:flex;gap:12px}.btn-book{flex:1;text-align:center;padding:12px;border-radius:999px;font-weight:700;font-size:.9rem;transition:var(--ease)}.btn-buy{background:linear-gradient(135deg,var(--gold),#f2c766);color:var(--plum);box-shadow:0 8px 20px rgba(216,169,62,.3)}.btn-buy:hover{transform:translateY(-2px);box-shadow:0 12px 25px rgba(216,169,62,.4)}.btn-sample{background:#fff;color:var(--plum);border:1px solid rgba(91,33,79,.2)}.btn-sample:hover{background:var(--blush)}
+
+/* --- OUR EVENTS SECTION STYLES --- */
+#events{background:var(--cream)}.events-list-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:25px}.event-card-item{background:#fff;border-radius:30px;padding:30px;box-shadow:var(--shadow);border-top:5px solid var(--berry);display:flex;flex-direction:column;justify-content:between;transition:var(--ease)}.event-card-item:hover{transform:translateY(-6px)}.event-card-item h3{font-size:1.5rem;color:var(--plum);margin-bottom:10px}.event-card-item p{color:var(--muted);font-size:.9rem;margin-bottom:20px}.event-flyer-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:20px}.event-flyer-grid img{width:100%;border-radius:16px;box-shadow:0 8px 20px rgba(91,33,79,.12);object-fit:cover;cursor:pointer;transition:var(--ease)}.event-flyer-grid img:hover{transform:scale(1.03)}
+
+#courses{background:#fff}.course-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:25px}.course-main{padding:42px;border-radius:34px;background:linear-gradient(135deg,var(--plum),#87356e);color:#fff;box-shadow:var(--shadow);position:relative;overflow:hidden}.course-main:after{content:'WEALTH';position:absolute;right:-35px;bottom:-35px;font-family:'Playfair Display',serif;font-size:8rem;color:rgba(255,255,255,.06)}.course-main h3{font-size:2.5rem;line-height:1.1;margin:12px 0}.course-main p{color:#f8e8f0;max-width:650px}.course-list{display:grid;gap:13px;margin-top:24px}.course-list div{display:flex;gap:12px;align-items:flex-start}.course-list i{color:var(--gold2);margin-top:5px}.course-side{display:grid;gap:15px}.mini{padding:25px;border-radius:24px;background:linear-gradient(135deg,#fff6fa,#f5efff);border:1px solid rgba(169,59,118,.12)}.mini h4{font-size:1.35rem;color:var(--plum);margin-bottom:5px}.mini p{font-size:.84rem;color:var(--muted)}
+
+#speaker{padding-top:80px}.booking{max-width:1240px;margin:auto;border-radius:40px;padding:65px;background:radial-gradient(circle at 85% 10%,rgba(239,121,168,.35),transparent 28%),linear-gradient(135deg,var(--plum),#7b2e69 55%,#a93b76);color:#fff;box-shadow:0 30px 80px rgba(91,33,79,.25);display:grid;grid-template-columns:1fr .9fr;gap:55px;position:relative;overflow:hidden}.booking h2{font-size:3.2rem;line-height:1.05;margin:12px 0 18px}.booking p{color:#f6e5ee}.contact-cards{display:grid;gap:12px;margin-top:25px}.contact-card{display:flex;align-items:center;gap:13px;padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15)}.contact-card i{color:var(--gold2);width:20px;text-align:center}.form{background:rgba(255,255,255,.1);padding:27px;border:1px solid rgba(255,255,255,.16);border-radius:28px;backdrop-filter:blur(8px)}.form h3{font-size:1.7rem;margin-bottom:15px}.field{margin-bottom:12px}.field input,.field textarea{width:100%;padding:13px 15px;border:1px solid rgba(255,255,255,.2);border-radius:14px;background:rgba(255,255,255,.1);color:#fff;font:inherit;outline:none}.field input::placeholder,.field textarea::placeholder{color:#ead8e2}.field textarea{min-height:105px;resize:vertical}.form .btn{border:0;background:linear-gradient(135deg,var(--gold2),#f2c766);color:var(--plum);width:100%;cursor:pointer}
+
+footer{background:#35152f;color:#ead9e4;padding:42px 7%;text-align:center}.footer-brand{font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff}.socials{display:flex;justify-content:center;gap:10px;margin:18px 0}.socials a{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--gold2);transition:var(--ease)}.socials a:hover{transform:translateY(-3px);background:var(--berry);color:#fff}.copyright{font-size:.72rem;color:#bfaab8}
+.reveal{animation:rise .9s both}@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+
+@media(max-width:1000px){.nav{display:none}.hero-grid,.about-grid,.course-grid,.booking,.events-list-grid{grid-template-columns:1fr}.hero-card{min-height:520px}.impact-grid{grid-template-columns:repeat(2,1fr)}.wealth-grid,.book-grid{grid-template-columns:1fr}.booking{padding:45px}}
+@media(max-width:650px){section{padding:80px 5%}.hero{padding:125px 5% 65px}.hero h1{font-size:4rem;letter-spacing:-2px}.hero-card{min-height:450px;border-width:5px}.pillars,.impact-grid,.wealth-grid,.book-grid{grid-template-columns:1fr}.floating{padding:12px 14px}.floating.one{right:12px}.floating.two{left:12px}.booking{border-radius:28px;padding:32px 22px}.booking h2{font-size:2.45rem}.section-head{margin-bottom:40px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand-wrapper">
+    <img src="wowlogo.jpeg" alt="WoW Logo" class="brand-logo">
+    <a class="brand" href="#top">JOY MOLELE<small>Faith • Purpose • Wealth</small></a>
+  </div>
+  <ul class="nav">
+    <li><a href="#about">About</a></li>
+    <li><a href="#wealth">Wealth</a></li>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#events">Our Events</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#speaker">Speaking</a></li>
+  </ul>
+  <a class="nav-cta" href="#speaker">Book a Conversation <i class="fa-solid fa-arrow-right"></i></a>
+</header>
+
+<main id="top">
+<section class="hero">
+ <div class="hero-grid">
+  <div class="hero-copy reveal">
+   <span class="eyebrow">Official Website</span>
+   <h1>Joy <span>Molele</span></h1>
+   <p class="hero-lead">Electrical Engineer • MBA Graduate • Entrepreneur • Markets Trader • Author • Speaker</p>
+   <div class="hero-quote">“Because God gave all power to create wealth. Choose wealth today, develop a trading skill, invest globally, and create wealth.”</div>
+   <div class="hero-actions"><a class="btn btn-primary" href="#wealth">Discover the Vision <i class="fa-solid fa-sparkles"></i></a><a class="btn btn-soft" href="#about">Meet the Woman Behind the Mission</a></div>
+  </div>
+  <div class="hero-card reveal">
+   <div class="hero-photo" role="img" aria-label="Joy Molele portrait background using molele1.jpeg"></div>
+   <div class="floating one"><strong>Purpose-led</strong><span>Leadership with intention</span></div>
+   <div class="floating two"><strong>Think • Build • Multiply</strong><span>A bold approach to wealth creation</span></div>
+  </div>
+ </div>
+</section>
+
+<div class="marquee"><div class="marquee-track"><span>FAITH <i>✦</i></span><span>WEALTH CREATION <i>✦</i></span><span>LEADERSHIP <i>✦</i></span><span>ENTREPRENEURSHIP <i>✦</i></span><span>GLOBAL MARKETS <i>✦</i></span><span>PURPOSE <i>✦</i></span><span>PROFITS IN HEELS 👠 <i>✦</i></span><span>MONTHLY WOW RETREATS <i>✦</i></span><span>PODCAST COMING SOON <i>✦</i></span></div></div>
+
+<section id="about">
+ <div class="container">
+  <div class="section-head"><span class="eyebrow">The Story</span><h2>More Than a Title.<br><em>A Whole Vision.</em></h2><p>A multidisciplinary journey where engineering, business, innovation, faith and wealth creation meet.</p></div>
+  <div class="about-grid">
+   <div class="about-visual"></div>
+   <div class="about-copy"><h3>Built to create impact.</h3><p>Sello Molele, known professionally as Joy, is a versatile leader, innovator, entrepreneur, mentor, life coach, public speaker and electrical engineer with a passion for developing people and possibilities.</p><p>A distinguished Wits University alumna and MBA graduate of Regenesys Business School, she brings together technical thinking, executive leadership, strategy, innovation and organisational transformation.</p><p>This platform is designed to connect her work — from books and training to speaking, markets and purpose-driven wealth creation — in one memorable experience.</p><div class="pillars"><div class="pillar"><i class="fa-solid fa-bolt"></i><h4>Innovation</h4><p>Turn ideas into meaningful action.</p></div><div class="pillar"><i class="fa-solid fa-chart-line"></i><h4>Wealth</h4><p>Learn, build and think globally.</p></div><div class="pillar"><i class="fa-solid fa-heart"></i><h4>Purpose</h4><p>Lead from conviction, not noise.</p></div><div class="pillar"><i class="fa-solid fa-users"></i><h4>People</h4><p>Equip others to rise and grow.</p></div></div><div class="signature">Lead beautifully. Build boldly.</div></div>
+  </div>
+ </div>
+</section>
+
+<section id="impact"><div class="container"><div class="section-head"><span class="eyebrow">The Impact</span><h2>One Vision. Many Expressions.</h2><p>A dynamic personal brand spanning professional excellence, personal development and wealth education.</p></div><div class="impact-grid"><div class="impact"><i class="fa-solid fa-microphone"></i><strong>Speaker</strong><span>Ideas that move people</span></div><div class="impact"><i class="fa-solid fa-book-open"></i><strong>Author</strong><span>Knowledge worth sharing</span></div><div class="impact"><i class="fa-solid fa-graduation-cap"></i><strong>Mentor</strong><span>Growth through guidance</span></div><div class="impact"><i class="fa-solid fa-globe"></i><strong>Global</strong><span>Think beyond borders</span></div></div></div></section>
+
+<section id="wealth"><div class="container"><div class="section-head"><span class="eyebrow">The Wealth Room</span><h2>Learn. Trade. Invest.<br><em>Create.</em></h2><p>Explore practical pathways for people who want to become more intentional about wealth, skills and opportunity.</p></div><div class="wealth-grid"><article class="wealth-card"><div class="icon"><i class="fa-solid fa-chart-candlestick"></i></div><h3>Markets & Trading</h3><p>Build market knowledge, discipline and a long-term learning mindset around trading and global markets.</p><span class="arrow">Explore <i class="fa-solid fa-arrow-right"></i></span></article><article class="wealth-card"><div class="icon"><i class="fa-solid fa-coins"></i></div><h3>Wealth Creation</h3><p>Move beyond income alone: develop skills, make informed decisions and build a personal wealth strategy.</p><span class="arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span></article><article class="wealth-card"><div class="icon"><i class="fa-solid fa-seedling"></i></div><h3>Mindset & Legacy</h3><p>Explore the beliefs, habits and leadership principles that help turn ambition into lasting impact.</p><span class="arrow">Discover <i class="fa-solid fa-arrow-right"></i></span></article></div></div></section>
+
+<section id="books">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">The Library</span>
+      <h2>Featured Publication</h2>
+      <p>Transformational books written to shift your perspective on leadership, spiritual intelligence, and governance.</p>
+    </div>
+    <div class="book-grid">
+      <article class="book-card">
+        <div class="book-img-wrap">
+          <img src="book1.jpeg" alt="The Presidents Need a King Book Cover">
+        </div>
+        <div class="book-content">
+          <h3>The Presidents Need a King</h3>
+          <div class="book-price">R250.00</div>
+          <p>King Jesus, The Governor — Discover how applying spiritual intelligence derived from the Bible brings order, justice, righteousness, and prophetic instruction to political systems and organizational leadership.</p>
+          <div class="book-actions">
+            <a href="#speaker" class="btn-book btn-buy"><i class="fa-solid fa-cart-shopping"></i> Order Copy</a>
+            <a href="#speaker" class="btn-book btn-sample">Read Preview</a>
+          </div>
+        </div>
+      </article>
+      <article class="book-card">
+        <div class="book-img-wrap" style="background:linear-gradient(135deg,var(--berry),var(--rose));">
+          <img src="wowlogo.jpeg" alt="Women of Wealth Logo Motif" style="max-height:200px; border-radius:50%;">
+        </div>
+        <div class="book-content">
+          <h3>Women of Wealth Resource Series</h3>
+          <div class="book-price">Coming Soon</div>
+          <p>A specialized companion collection of journals, devotionals, and financial strategy blueprints designed to empower women to build generation-spanning legacies.</p>
+          <div class="book-actions">
+            <a href="#speaker" class="btn-book btn-buy" style="background:var(--blush); color:var(--plum);">Join Waitlist</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="events">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Events & Gatherings</span>
+      <h2>Step Into the Room of Impact</h2>
+      <p>Explore our signature events, recurring retreats, educational webinars, and upcoming podcast launches.</p>
+    </div>
+    
+    <div class="events-list-grid">
+      <div class="event-card-item">
+        <div>
+          <span class="eyebrow" style="color:var(--berry);">Featured Upcoming Event</span>
+          <h3>1. Profits In Heels 👠</h3>
+          <p><strong>Financial Empowerment For All Women!</strong><br>A collaborative event from Capital Zone & FxPro. Join Joy Molele and esteemed speakers for an extraordinary live masterclass on digital currency, wealth strategies, and entrepreneurship.</p>
+          <p>📅 <strong>Date:</strong> 5th September 2026<br>🕒 <strong>Time:</strong> 10:00 AM – 2:30 PM<br>📍 <strong>Venue:</strong> The Capital, Sandton (Space Limited to 100 Seats Only!)</p>
+        </div>
+        <div class="event-flyer-grid">
+          <img src="profitinheels1.jpeg" alt="Profits in Heels Flyer 1">
+          <img src="profitinheels2.jpeg" alt="Profits in Heels Flyer 2">
+        </div>
+        <a class="btn btn-primary" href="#speaker">Secure Your Seat Now</a>
+      </div>
+
+      <div class="event-card-item">
+        <div>
+          <span class="eyebrow" style="color:var(--berry);">Recurring Gathering</span>
+          <h3>2. Monthly WoW Retreats</h3>
+          <p>Exclusive monthly sanctuary retreats hosted under the Women of Wealth banner. Unwind, strategize, network with high-caliber visionaries, and realign your faith-led financial path in luxurious, serene settings.</p>
+        </div>
+        <div style="margin:20px 0; padding:20px; background:var(--blush); border-radius:18px; text-align:center;">
+          <i class="fa-solid fa-spa" style="font-size:2rem; color:var(--berry); margin-bottom:10px;"></i>
+          <p style="font-size:0.85rem; color:var(--plum); font-weight:600; margin:0;">Intimate sessions limited by invitation & booking.</p>
+        </div>
+        <a class="btn btn-soft" href="#speaker">Enquire About Retreats</a>
+      </div>
+
+      <div class="event-card-item">
+        <div>
+          <span class="eyebrow" style="color:var(--berry);">Digital Masterclasses</span>
+          <h3>3. Webinars</h3>
+          <p>Global virtual training classrooms breaking down market navigation, trading psychology, capital growth, and leadership principles directly from your screen, wherever you are in the world.</p>
+        </div>
+        <div style="margin:20px 0; padding:20px; background:var(--cream); border-radius:18px; text-align:center; border:1px dashed var(--gold);">
+          <i class="fa-solid fa-laptop-code" style="font-size:2rem; color:var(--gold); margin-bottom:10px;"></i>
+          <p style="font-size:0.85rem; color:var(--plum); font-weight:600; margin:0;">Interactive Q&A • Live Market Breakdowns</p>
+        </div>
+        <a class="btn btn-soft" href="#speaker">Get Webinar Schedule</a>
+      </div>
+
+      <div class="event-card-item" style="border-top-color:var(--gold);">
+        <div>
+          <span class="eyebrow" style="color:var(--gold);">Audio Experience</span>
+          <h3>4. Podcast — Coming Soon</h3>
+          <p>Get ready for deep-dive conversations on wealth creation, kingdom governance, scaling businesses, and navigating financial markets with Joy Molele and special industry leaders.</p>
+        </div>
+        <div style="margin:20px 0; padding:20px; background:linear-gradient(135deg,var(--plum),var(--berry)); color:#fff; border-radius:18px; text-align:center;">
+          <i class="fa-solid fa-podcast" style="font-size:2rem; color:var(--gold2); margin-bottom:10px;"></i>
+          <p style="font-size:0.85rem; color:#fff; font-weight:600; margin:0;">Subscribe to be notified on launch day!</p>
+        </div>
+        <a class="btn btn-primary" href="#speaker" style="background:linear-gradient(135deg,var(--gold),var(--gold2)); color:var(--plum);">Join Podcast Alert List</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="courses"><div class="container"><div class="section-head"><span class="eyebrow">Training & Courses</span><h2>Turn Knowledge Into Capability.</h2><p>Training experiences designed to inspire action, sharpen thinking and develop practical skills.</p></div><div class="course-grid"><div class="course-main"><span class="eyebrow" style="color:#ffd9e8">Featured Experience</span><h3>Wealth & Markets Masterclass</h3><p>An immersive learning space for mindset, market awareness, wealth principles and purposeful action. Replace the module list below with the official curriculum.</p><div class="course-list"><div><i class="fa-solid fa-check"></i><span>Wealth mindset & financial awareness</span></div><div><i class="fa-solid fa-check"></i><span>Introduction to global markets</span></div><div><i class="fa-solid fa-check"></i><span>Trading discipline & risk awareness</span></div><div><i class="fa-solid fa-check"></i><span>Building a personal wealth vision</span></div></div><a class="btn btn-soft" style="margin-top:28px" href="#speaker">Enquire About Training</a></div><div class="course-side"><div class="mini"><h4>Leadership & Executive Growth</h4><p>High-impact sessions for leaders, professionals and teams.</p></div><div class="mini"><h4>Women & Wealth</h4><p>Purpose-led conversations around confidence, opportunity and financial empowerment.</p></div><div class="mini"><h4>Speaking & Masterclasses</h4><p>Custom experiences for conferences, organisations, churches and communities.</p></div></div></div></div></section>
+
+<section id="speaker"><div class="booking"><div><span class="eyebrow" style="color:#ffd9e8">Speaking • Partnerships • Training</span><h2>Let’s create a room people remember.</h2><p>For keynote speaking, masterclasses, corporate engagements, interviews, partnerships or training enquiries, start the conversation here.</p><div class="contact-cards"><div class="contact-card"><i class="fa-solid fa-microphone"></i><span>Keynotes & inspirational speaking</span></div><div class="contact-card"><i class="fa-solid fa-building"></i><span>Corporate & executive engagements</span></div><div class="contact-card"><i class="fa-solid fa-chalkboard-user"></i><span>Training & masterclasses</span></div></div></div><form class="form" onsubmit="event.preventDefault(); alert('Thank you! Please connect this form to your preferred email or form service.');"><h3>Start a conversation</h3><div class="field"><input required type="text" placeholder="Your name"></div><div class="field"><input required type="email" placeholder="Email address"></div><div class="field"><input type="text" placeholder="Organisation / event"></div><div class="field"><textarea placeholder="Tell us what you have in mind..."></textarea></div><button class="btn" type="submit">Send Enquiry <i class="fa-solid fa-paper-plane"></i></button></form></div></section>
+</main>
+<footer>
+  <div style="margin-bottom:15px;"><img src="wowlogo.jpeg" alt="WoW Logo" style="width:60px; height:60px; border-radius:50%; border:2px solid var(--gold);"></div>
+  <div class="footer-brand">Joy Molele</div>
+  <div class="socials"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></div>
+  <p class="copyright">© 2026 Joy Molele. All rights reserved. • Faith • Purpose • Wealth</p>
+</footer>
+</body>
+</html>
